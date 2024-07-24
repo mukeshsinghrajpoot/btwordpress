@@ -1,0 +1,510 @@
+.header-roadmap {
+	position: relative;
+    padding: 0px 0px 0px 40px;
+    background-color: #f8fafb;
+}
+
+.hide {
+		display: none;
+}
+
+.tab-content-roadmap {
+		padding:25px;
+		overflow: hidden;
+}
+
+#material-tabs {
+		position: relative;
+		display: block;
+	  padding:0;
+		/*border-bottom: 1px solid #e0e0e0;*/
+}
+
+#material-tabs>a {
+		position: relative;
+	 display:inline-block;
+		text-decoration: none;
+		padding: 15px 32px 15px 0px;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 600;
+		color: #424f5a;
+		text-align: center;
+		outline:;
+}
+
+#material-tabs>a.active {
+		font-weight: 600 !important;
+		outline:none;
+		color: #458CFF !important;
+}
+
+#material-tabs>a:not(.active):hover {
+		background-color: inherit;
+		color: #7c848a;
+}
+
+@media only screen and (max-width: 520px) {
+		.nav-tabs#material-tabs>li>a {
+				font-size: 11px;
+		}
+}
+
+.yellow-bar {
+		position: absolute;
+		z-index: 10;
+		bottom: 0;
+		height: 3px;
+		background: #458CFF;
+		display: block;
+		left: 0;
+		transition: left .2s ease;
+		-webkit-transition: left .2s ease;
+}
+
+#tab1-tab.active ~ span.yellow-bar {
+		left: 0;
+		width: 187px;
+}
+
+#tab2-tab.active ~ span.yellow-bar {
+		left:224px;
+		width: 236px;
+}
+
+#tab3-tab.active ~ span.yellow-bar {
+		left: 496px;
+		width: 73px;
+}
+
+#tab4-tab.active ~ span.yellow-bar {
+		left:392px;
+		width: 163px;
+}
+
+/*==========================*/
+.roadmap-logo img {
+    width: auto;
+    height: auto;
+}
+.roadmap-logo h2 {
+    margin: 0px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.roadmap-logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.roadmap-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.submitiead-btn button {
+    border: 0px;
+    background-color: #3ea9d1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.submitiead-btn button:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.roadmap-header-wrraper {
+/*    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);*/
+    background-color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+.roadmapcard-img img {
+    width: 100%;
+    height: 100%;
+}
+.roadmapcard-img {
+    height: 170px;
+}
+.roadmap-head h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    padding-bottom: 10px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.roadmapcard-desription h2 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin: 0px;
+    padding: 10px 0px;
+}
+span.roadmap-postname {
+    font-size: 14px;
+    color: #797979;
+    font-weight: normal;
+    padding-left: 5px;
+}
+.roadmapcard-desription p {
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    margin: 0px;
+}
+.roadmapposted-title h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    /*padding-top: 13px;*/
+    padding-bottom: 10px;
+}
+.roadmapposted-cehck {
+    display: flex;
+    gap: 15px;
+}
+.posted-check1 label {
+    font-size: 14px;
+    color: #373737;
+    margin: 0px;
+}
+.roadmapform-inner input {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    height: 32px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.roadmap-message textarea {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    height: 60px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.roadmap-submitbtn button {
+    background: #3274ae;
+    color: #fff;
+    padding: 6px 17px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.roadmap-message {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.roadmap-submiton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.roadmapcontact-label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.under-consieraion-sec {
+    /*transition: all 0.15s ease-in-out;*/
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(168 168 168 / 50%);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(168,168,168,0.5);
+    box-shadow: 0px 0px 20px 0px rgb(168 168 168 / 50%);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+/*.under-consieraion-sec:hover {
+-webkit-transform: translate(0px, -3px);
+    -moz-transform: translate(0px, -3px);
+    -ms-transform: translate(0px, -3px);
+    -o-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+}*/
+.roadmapconsideratin-head h2 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+}
+.roadmapconsideratin-head {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+#adminmenu .wp-menu-image img {
+padding: 0 0 0 0;
+opacity: 2.6;
+width: 20px;
+height: 20px;
+position: relative;
+top: 6px;
+}
+.posted-check1 input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    border-radius: inherit;
+    position: relative;
+    top: 3px;
+}
+.roadmapcard-desription {
+    padding-top: 10px;
+}
+.posted-check1 input[type="checkbox"]:before {
+    height: 15px !important;
+    width: 15px !important;
+    margin: 0px !important;
+    border-radius: 0px !important: 
+}
+#material-tabs>a:focus {
+    outline: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.admin-upload-section .adminupload-img {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+.yellow-bar {
+    display: none;
+}
+#material-tabs>a {
+    text-align: left;
+}
+.header-roadmap {
+    padding: 0px 0px 0px 0px;
+}
+.tab-content-roadmap {
+    padding: 15px 0px 15px 0px;
+}
+.roadmapcard-img {
+    height: 130px;
+}
+body.page-template-feature-requests {
+    overflow: inherit !important;
+}
+}
+/*================ New css start  ========*/
+.fmodal-img img {
+    width: 100%;
+}
+.fmodal-title h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.fmodat-content p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px;
+}
+.fmoda-howimp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.fhowimp-title p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.fmoda-formsection {
+    background-color: #f2f5f7;
+    padding: 10px;
+    margin-top: 15px;
+}
+.fhowimp-btnsection button {
+    color: #000000;
+    background-color: #f2f5f7;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 4px 7px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+p.fmodal-footercontent {
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+}
+p.fmodal-footercontent a {
+    text-decoration: underline;
+}
+.fhowimp-btnsection button.nthbtn:hover {
+    background-color: #3274ae;
+    color: #fff;
+    border-color: #3274ae;
+}
+.fhowimp-btnsection button.ibtn:hover {
+    background-color: #ffc600;
+    color: #fff;
+    border-color: #ffc600;
+}
+.fhowimp-btnsection button.cbtn:hover {
+    background-color: #ff1f1f;
+    color: #fff;
+    border-color: #ff1f1f;
+}
+.fmoad-privacy {
+    padding-top: 10px;
+}
+.fmodal-cname {
+    margin-bottom: 10px;
+}
+.roadmapcontact-label {
+    width: 100%;
+    margin-top: 10px;
+}
+.fmodal-wrraper .modal-header {
+    padding: 5px 15px 5px 15px;
+}
+
+
+.roadmapform-inner {
+    display: none;
+}
+
+/*============  top modal css =======*/
+div#myModal-22 .modal-header h4 {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.newidea-messagebox textarea {
+    height: 160px;
+}
+.fnewbtnm {
+    border: 0px;
+    background-color: #3ea9d1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+header.header-roadmap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fnewbtnm {
+    border: 0px;
+    background-color: #3ea9d1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ftopmodal-from {
+    margin-top: 0px;
+}
+.fnewbtnm:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+.roadmapform-innern input {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    height: 32px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.databox-roadmap-wrraper .modal {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+.fmodal-wrraper .modal-dialog {
+    max-width: 650px;
+}
+.fmodal-img {
+    height: 180px;
+}
+.fmodal-img img {
+    width: 100%;
+    height: 100%;
+}
+body.page-template-feature-requests {
+    overflow: hidden;
+}
+/*=================================*/
+.under-consieraion-sec .roadmapcard-img img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.fmodal-wrraper form .under-consieraion-sec {
+    padding: 0px;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+.databox-roadmap-wrraper .modal-dialog {
+    max-width:550px;
+}
+.databox-roadmap-wrraper .modal-header {
+    padding: 0px 15px 5px 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.fnewidea-btn div#myModal-22 {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+.fnewidea-btn div#myModal-22 .modal-header {
+    display: initial;
+    padding: 5px 15px 5px 15px;
+}
+div#myModal-22 .roadmapform-inner {
+    display: block;
+}
+.fnewidea-btn div#myModal-22 .under-consieraion-sec {
+    padding: 0px;
+    box-shadow: none;
+    margin: 0px;
+}
+.fnewidea-btn div#myModal-22 .roadmapposted-title h2{
+    padding-top: 0px;
+}

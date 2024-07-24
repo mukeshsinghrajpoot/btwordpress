@@ -1,0 +1,327 @@
+.roadmap-logo img {
+    width: auto;
+    height: auto;
+}
+.roadmap-logo h2 {
+    margin: 0px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.roadmap-logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.roadmap-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.submitiead-btn button {
+    border: 0px;
+    background-color: #3ea9d1;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.submitiead-btn button:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.roadmap-header-wrraper {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    background-color: #fff;
+    padding: 10px 10px 0px 10px;
+}
+
+/*====================*/
+
+
+.file-upload {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0px;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #3ea9d1;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #0987b6;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #3ea9d1;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 2px dashed #3ea9d1;
+  position: relative;
+}
+
+
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #3ea9d1;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #3ea9d1;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #0987b6;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #188bf6;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+/*=======================*/
+.uploadsubmit-heading h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.admin-upload-section form label {
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+.admin-upload-section form input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 38px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.admin-upload-section form textarea {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 100px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.request-title {
+    margin-bottom: 15px;
+}
+.adminupload-img {
+    margin-bottom: 15px;
+}
+.upload-subject {
+    margin-bottom: 15px;
+}
+.upload-mesage {
+    margin-bottom: 15px;
+}
+.admin-upload-section {
+    border-radius: 6px;
+    /*box-shadow: 0 10px 50px rgb(48 54 60 / 70%);*/
+    padding: 30px;
+    max-width: 680px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(168 168 168 / 50%);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(168,168,168,0.5);
+    box-shadow: 0px 0px 20px 0px rgb(168 168 168 / 50%);
+}
+.admin-upload-wrraper {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.upload-submitbtn button {
+    background: #3ea9d1;
+    color: #fff;
+    padding: 9px 20px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+/*=====================*/
+form table.table.table-striped.table-bordered tr td input.checkbox {
+    border-radius: 0px !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+form table.table.table-striped.table-bordered tr td input[type=checkbox]:checked::before {
+    height: 15px;
+    width: 15px;
+}
+form table.table.table-striped.table-bordered tr th input#select_all{
+    border-radius: 0px !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+form table.table.table-striped.table-bordered tr th input#select_all:checked::before {
+    height: 15px;
+    width: 15px;
+}
+form table.table.table-striped.table-bordered tr th input#select_all {
+    border-radius: 0px !important;
+}
+form table.table.table-striped.table-bordered tr td input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    border-color: #828282 !important;
+    box-shadow: none;
+    outline: none !important;
+}
+form table.table.table-striped.table-bordered tr th {
+    text-transform: capitalize;
+}
+form table.table.table-striped.table-bordered thead tr th {
+    background-color: #656565;
+    color: #fff;
+}
+/*=================*/
+button.export-customerbtn {
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    cursor: pointer;
+    margin-right: 25px;
+    float: right;
+}
+.exportfile-section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.choose-videoimg-section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.choose-imgsecton {
+    margin-bottom: 15px;
+}
+.error1 {
+    color: red;
+}
+.btnnew{
+    border: none;
+    background: none;
+    font-size: 15px;
+    }
+    .trnew{
+        font-size: 18px;background:#f5f5f5;
+    }
+    .tablenav-pages .current{
+        height: 25px;
+    width: 25px;
+    background-color: #065397;
+    border-radius: 50%;
+    display: inline-block;
+        color: #fff !important;
+        font-weight:bold;
+    }
+    .page-numbers{
+        padding: 2px;
+        color:black;
+    }
+    input.export-customerbtn {
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    cursor: pointer;
+    margin-right: 25px;
+    float: right;
+}

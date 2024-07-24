@@ -1,0 +1,31 @@
+.tablenav .tablenav-pages {
+    text-align: center;
+    margin-top: 20px;
+    float: none;
+}
+
+.tablenav .tablenav-pages a,
+.tablenav .tablenav-pages span {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: #0073aa;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tablenav .tablenav-pages a:hover,
+.tablenav .tablenav-pages .current {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+.tablenav .tablenav-pages .dots {
+    background-color: transparent;
+    border: none;
+    cursor: default;
+}

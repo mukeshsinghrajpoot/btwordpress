@@ -1,0 +1,141 @@
+.Schedule-container-inner {
+    max-width: 1248px;
+    margin: auto;
+    position: relative;
+    padding: 10px 20px;
+}
+.Schedule-container {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+}
+.Schedule-container h2 {
+    color: #757575;
+    font-size: 12px;
+    /* margin-bottom: 10px; */
+    font-weight: 900;
+}
+
+.Schedule-container h1 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.week-content h3 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.Schedule-container .selectors {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.Schedule-container select {
+    padding: 11px 30px 8px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 154px;
+}
+.Schedule-container option {
+    padding: 10px;
+    font-size: 14px;
+}
+.Schedule-container select:focus {
+    outline: 1px solid currentColor !important;
+    outline-offset: 2px;
+    border-radius: 0px !important;
+}
+.Schedule-container .tab-content {
+    display: none;
+}
+
+.Schedule-container .tab-content.active {
+    display: block;
+}
+
+.Schedule-container .table-container {
+    margin-top: 20px;
+}
+
+.Schedule-container .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.Schedule-container .table-container th,
+.table-container td {
+    padding: 8px;
+    text-align: left;
+    border: 0px;
+    color: #0a1f8f;
+    text-align: center;
+
+}
+
+.Schedule-container .table-container tr {
+    border: 1px solid #ccc;
+}
+
+.Schedule-container .table-container th {
+    background-color: #0A1F8F;
+    color: #fff;
+    padding: 15px 10px;
+    border: 0px;
+}
+
+.Schedule-container .selectors {
+    margin-bottom: 10px;
+}
+
+.Schedule-container .table-container thead tr th {
+    min-width: 200px;
+}
+
+.Schedule-container .table-container thead tr {
+    border-color: #0a1f8f;
+}
+span.notfound-content {
+    color: red;
+}
+/* Pagination styles */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination .page-numbers:hover {
+    background-color: #e9e9e9;
+}
+
+.pagination .page-numbers.current {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}

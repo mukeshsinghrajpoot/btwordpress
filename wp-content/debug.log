@@ -1,0 +1,45 @@
+[23-Jul-2024 06:08:07 UTC] Automatic updates starting...
+[23-Jul-2024 06:08:08 UTC]   Automatic theme updates starting...
+[23-Jul-2024 06:08:08 UTC]   Automatic theme updates complete.
+[23-Jul-2024 06:08:08 UTC] Automatic updates complete.
+[23-Jul-2024 06:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function multitab_csv_pagination() in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php:426
+Stack trace:
+#0 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(324): multitab_csv_manage_data_page()
+#1 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/btwordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/btwordpress/wp-admin/admin.php(259): do_action()
+#4 {main}
+  thrown in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php on line 426
+[23-Jul-2024 06:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function multitab_csv_pagination() in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php:426
+Stack trace:
+#0 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(324): multitab_csv_manage_data_page()
+#1 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/btwordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/btwordpress/wp-admin/admin.php(259): do_action()
+#4 {main}
+  thrown in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php on line 426
+[23-Jul-2024 06:39:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function multitab_csv_pagination() in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php:426
+Stack trace:
+#0 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(324): multitab_csv_manage_data_page()
+#1 /var/www/html/btwordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /var/www/html/btwordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/btwordpress/wp-admin/admin.php(259): do_action()
+#4 {main}
+  thrown in /var/www/html/btwordpress/wp-content/plugins/nfl-csv-upload/nfl-csv-upload.php on line 426
+[23-Jul-2024 07:10:00 UTC] PHP Notice:  Function wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>multitab-csv-custom-styles</code> handle. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /var/www/html/btwordpress/wp-includes/functions.php on line 6085
+[23-Jul-2024 07:10:00 UTC] PHP Notice:  Function wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. This notice was triggered by the <code>multitab-csv-custom-styles</code> handle. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /var/www/html/btwordpress/wp-includes/functions.php on line 6085
+[23-Jul-2024 07:10:00 UTC] PHP Notice:  Function is_feed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /var/www/html/btwordpress/wp-includes/functions.php on line 6085
+[23-Jul-2024 08:50:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /var/www/html/btwordpress/wp-content/plugins/woocommerce/includes/class-wc-tracker.php on line 715
+[23-Jul-2024 08:50:24 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/btwordpress/wp-content/plugins/woocommerce/includes/class-wc-tracker.php on line 818
+[23-Jul-2024 11:00:42 UTC] Automatic updates starting...
+[23-Jul-2024 11:00:45 UTC]   Automatic theme updates starting...
+[23-Jul-2024 11:00:45 UTC]   Automatic theme updates complete.
+[23-Jul-2024 11:00:45 UTC] Automatic updates complete.
+[24-Jul-2024 07:52:36 UTC] Automatic updates starting...
+[24-Jul-2024 07:52:38 UTC]   Automatic theme updates starting...
+[24-Jul-2024 07:52:38 UTC]   Automatic theme updates complete.
+[24-Jul-2024 07:52:38 UTC] Automatic updates complete.
+[24-Jul-2024 10:32:52 UTC] Automatic updates starting...
+[24-Jul-2024 10:32:54 UTC]   Automatic theme updates starting...
+[24-Jul-2024 10:32:54 UTC]   Automatic theme updates complete.
+[24-Jul-2024 10:32:54 UTC] Automatic updates complete.
